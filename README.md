@@ -175,7 +175,7 @@
 适合本地 Agent、Codex、Claude Code、Cursor 等环境。
 
 ```bash
-git clone <[your-repo-ur](https://github.com/Coreycore123/cryskill-title-matching/)l>
+git clone <https://github.com/Coreycore123/cryskill-title-matching/tree/main>
 ```
 
 然后让你的 Agent 从以下文件开始读取：
