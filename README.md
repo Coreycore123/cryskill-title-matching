@@ -13,27 +13,6 @@
 
 ---
 
-## 适用平台
-
-这套技能库采用“文件式 skill 资产”结构，可通过 `git clone` 或 `raw` 链接接入多种终端与 Agent 工作流。
-
-当前兼容性说明：
-
-- `Codex`
-- `Claude Code`
-- `Cursor`
-- `GitHub Copilot`
-- `Trae`
-- 其他支持读取本地 Markdown / Git 仓库 / Raw URL 的 Agent 环境
-
-说明：
-
-- 不同终端对“原生安装 skill”的协议不同
-- 本仓库重点兼容的是“共享同一套规则文件与模板文件”
-- 如果某平台不支持原生 Skill 协议，也可以通过 prompt / context / rules 文件方式接入
-
----
-
 ## 核心能力
 
 ### 1. 标题方法匹配
@@ -69,23 +48,6 @@
 硬性规则：
 
 `标题包括标点在内，不得超过21个字。`
-
----
-
-## 推荐仓库名
-
-建议 GitHub 仓库名直接使用：
-
-- `cryskill-title-matching`
-
-如果你后面要做一个 skill 集合仓库，也可以用：
-
-- `coreyskill`
-- `coreyskill-skills`
-
-当前这一份最适合单独发布为：
-
-- `cryskill-title-matching`
 
 ---
 
@@ -213,7 +175,7 @@
 适合本地 Agent、Codex、Claude Code、Cursor 等环境。
 
 ```bash
-git clone <your-repo-url>
+git clone <[your-repo-ur](https://github.com/Coreycore123/cryskill-title-matching/)l>
 ```
 
 然后让你的 Agent 从以下文件开始读取：
